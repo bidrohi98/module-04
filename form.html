@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jamal er ma pitha ghor</title>
+    <style>
+        label{
+            display: block;
+            margin: 10px;
+        }
+        button{
+            margin-top: 5px ;
+        }
+    </style>
+</head>
+<body>
+    <h1>Please Fill the Form </h1>
+    <form action="">
+        <label for="name">Your Name:
+            <input id="name" type="text" placeholder="Your name"> 
+        </label>
+        <label for="email">
+            Your Email:
+            <input type="email" id="email" placeholder="Your email">
+        </label>
+        <label for="phone">
+            Your Phone:
+            <input type="number" id="phone" placeholder="Your Phone Number">
+        </label>
+        <fieldset>
+            <legend>Pick a Pitha</legend>
+            <label for="chitoi">
+                <input type="radio" name="pitha" id="chitoi"> Chitoi
+            </label>
+            <label for="vapa">
+                <input type="radio" name="pitha" id="vapa"> Vapa
+            </label>
+            <label for="puli">
+                <input type="radio" name="pitha" id="puli"> Puli
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Pick a one or more vorta</legend>
+            <label for="sutki">
+                <input type="checkbox" name="vorta" id="sutki">Sutki
+            </label>
+            <label for="sorisa">
+                <input type="checkbox" name="vorta" id="sorisa">Sorisa
+            </label>
+            <label for="chili">
+                <input type="checkbox" name="vorta" id="chili">Chili
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Special Instruction</legend>
+            <textarea name="" id="" cols="30" rows="5"></textarea>
+        </fieldset>
+        <button type="reset" >Reset</button>
+        <button type="submit"> Submit</button>
+    </form>
+</body>
+</html>
